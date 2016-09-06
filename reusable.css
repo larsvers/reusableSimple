@@ -1,0 +1,13 @@
+/* Meyer Reset (in moderation) */
+/*html, body, h1, h2, h3, h4, h5, h6, p {*/
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a:link, a:visited, a:hover, a:active {
+	color: #000;
+}
