@@ -1,4 +1,6 @@
 
+var vis = vis || {};
+
 // load/format
 d3.csv('data/movie.csv', type, function(err, data) {
 
@@ -43,8 +45,6 @@ d3.csv('data/movie.csv', type, function(err, data) {
 });
 
 
-
-// Chart function
 function chart() {
 
 	// Exposed variables
@@ -159,7 +159,7 @@ function chart() {
 	}
 
 
-	return my; // Expose closure
+	return my; // Expose chart closure
 
 } // chart()
 
