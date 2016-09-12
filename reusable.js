@@ -72,7 +72,7 @@ function chart() {
       // We do this by using the mechanics of the data join and the enter selection. 
       // As a short reminder: the data join (on its own, not chained with .enter()) checks how many data items there are 
       // and stages a respective number of DOM elements.
-      // An join on its own - detached from the .enter() method checks first how many data elements come in new 
+      // An join on its own - detached from the .enter() method - checks first how many data elements come in new 
       // (n = new data elements) to the data join selection and then it appends the specified DOM element exactly n times. 
 
       // Here we do exactly that with joining the data as one array element with the non-existing svg first:
